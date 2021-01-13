@@ -1,0 +1,282 @@
+.jd-m{
+	width: 100%;
+	min-width: 320px;
+	max-width: 720px;
+	box-sizing: border-box;
+}
+/* 头部 */
+.jd-m header {
+	width: 100%;
+	height: 40px;
+	background-color: red;
+	position: fixed;
+	top: 0;
+	padding: 0 60px;
+	box-sizing: border-box;
+}
+
+.jd-m header a {
+	position: absolute;
+
+	/*background-color: blue;*/
+	}
+
+.jd-m header a.logo{
+	left: 0;
+	height: 36px;
+	width: 60px;
+	background: url(../images/sprites.png) no-repeat 0 -100px/200px;
+
+}
+.jd-m header a.login{
+	right: 0;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 40px;
+	background-color: yellow;
+
+}
+.jd-m header form{
+	height: 40px;
+	position: relative;
+}
+.jd-m header form .icon-search{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url(../images/sprites.png) -59px -108px/200px;  no-repeat;
+}
+.jd-m header form input{
+	background-color: black;
+	height: 36px;
+	border-radius: 20px;
+	margin-top: 2px;
+	width: 100%;
+	padding-left: 28px;
+}
+
+/* 头部结束 */
+/* banner  start */
+
+.jd-m .banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.jd-m .banner ul{
+	width: 1000%;
+	/* position:absolute; */
+}
+.jd-m .banner ul li{
+	float: left;
+	width: 10%;
+	margin-top: 40px;
+}
+
+
+.jd-m .banner ol{
+	bottom: 20px;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.jd-m .banner ol li{
+	width: 10px;
+	height:10px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin-right: 5px;
+	float: left;
+}
+/* .clearfix::before,
+.clearfix::after{
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+	content: " ";
+} */
+
+
+.jd-m .banner ul li a {
+	display: block;
+	width: 100%;
+}
+.jd-m .banner ul li a img{
+	display: block;
+	width: 100%;
+}
+/* banner  end */
+
+/* nav  start */
+
+.jd-m nav {
+	width: 100%;
+	border-bottom:1px solid rgb(68, 67, 67);
+}
+.jd-m nav ul{
+	width: 100%;
+}
+.jd-m nav ul li{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.jd-m nav ul li a {
+	display: block;
+}
+.jd-m nav ul li a img{
+	display: block;
+	width: 100%;
+}
+.jd-m nav ul li a p{}
+/* nav  end */
+
+.jd_product {
+	width: 100%;
+	background-color:#ccc;
+	/*padding: 10px 4px;*/
+	/*box-sizing: border-box;*/
+}
+
+.jd_product section {
+	width: 100%;
+	background-color: #fff;
+}
+
+
+/*掌上描述 start*/
+
+.jd_product section .tit {
+	width: 100%;
+	height: 40px;
+	background-color: pink;
+}
+.jd_product section .t-left {
+	float: left;
+	position: relative;
+}
+.jd_product section .t-left .clock  {
+	/*position: absolute;
+	left: 0px;*/
+	width: 40px;
+	height: 40px;
+	background: url(../images/seckill-icon.png) no-repeat center / 50%;
+}
+.jd_product section .t-left h3  {
+	line-height: 40px;
+	/*padding-left: 40px;*/
+	font-weight: normal;
+	color: #d8505c;
+}
+.jd_product section .t-left ul  {
+	/*background-color: yellow;*/
+	height: 40px;
+	margin-left: 10px;
+}
+.jd_product section .t-left ul li  {
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-color: #000;
+	color: #fff;
+	margin-right: 2px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 14px;
+}
+
+.jd_product section .t-left ul li:nth-child(3n)  {
+	background-color: #fff;
+	color: #000;
+	width: 8px;
+}
+.jd_product section .t-right {
+	float: right;
+}
+.jd_product section .t-right .more {
+	float: right;
+	height: 40px;
+	width: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+
+.jd_product section .con {
+	width: 100%;
+}
+.jd_product section .con ul{
+	width: 100%;
+	/*background-color: red;*/
+	box-sizing: border-box;
+}
+.jd_product section .con ul li{
+	float: left;
+	width: 33.333333%;
+	/*height:50px;*/
+	/*background-color: blue;*/
+	box-sizing: border-box;
+}
+.jd_product section .con ul li a{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20px;
+	border-right: 1px solid #ccc;
+}
+
+.jd_product section .con ul li:last-child a{
+	border-right:0px;
+}
+.jd_product section .con ul li a img{
+	display: block;
+	width: 100%;
+}
+.jd_product section .con ul li .price{
+	text-align: center;
+}
+.jd_product section .con ul li .old-price{
+	text-align: center;
+}
+
+
+/*掌上描述 end*/
+
+/*京东超市*/
+
+.jd_product section:nth-child(2) {
+	width: 100%;
+	background-color: green;
+}
+.jd_product section:nth-child(2) .tit{
+
+}
+.jd_product section:nth-child(2) .tit h3{
+	font-weight: 400;
+	color: #333;
+	position: relative;
+	padding-left: 18px;
+	line-height: 40px;
+}
+.jd_product section:nth-child(2) .tit h3::before{
+	content: "";
+	position: absolute;
+	left: 8px;
+	width: 8px;
+	height: 16px;
+	background-color: red;
+	margin-top: 12px;
+}
+
+
+/*京东超市*/

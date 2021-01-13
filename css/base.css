@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol,li {
+	list-style: none;
+}
+
+input {
+	outline: 0 none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.clearfix::before,
+.clearfix::after{
+	content: " ";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+
+/*浮动 ， margin*/
+
+.f-left {
+	float: left;
+}
+
+.m-left{
+	margin-left: 10px;
+}
+.m-top{
+	margin-top: 10px;
+}
+.m-bottom{
+	margin-bottom: 10px;
+}
+
+/*精灵图 no-repeat....*/
+
+/*[class^="icon-"] {
+	
+}*/
